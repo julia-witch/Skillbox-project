@@ -6,7 +6,16 @@
 
 body {
   font-family: 'Gilroy', sans-serif;
+  min-height: 2260px;
 }
+
+.body-bgrnd {
+  background-image: url("../img/wave.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  /*background-attachment: scroll;*/
+}
+
 
 a {
   color: inherit;
@@ -109,6 +118,15 @@ a {
   background-position: left center ;
   background-size: 20px;
   padding-left: 40px;
+}
+
+.links__forward {
+  background-image: url("../img/forward.png");
+  background-repeat: no-repeat;
+  background-position: right center ;
+  background-size: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
 }
 
 .list {
